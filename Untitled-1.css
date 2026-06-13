@@ -1,0 +1,41 @@
+body {
+justify-content: center;
+display: flex;
+align-items: center;
+background-image: url(ff.jpg); 
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+
+}
+
+button{
+width: 200px;
+border-radius: 13px;
+border: red;
+cursor: pointer;
+transition: 0.5s;
+color: rgb(0, 0, 0);
+background-color: rgb(11, 255, 3);
+
+}
+
+button:hover{
+transform: scale(1.1);
+
+}
+textarea{
+border-radius: 12px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+width: 250px;
+border-color: rgba(255, 222, 114, 0.993);
+background-color: rgba(255, 222, 114, 0.993);
+}
+input{
+border-radius: 15px;
+width: 200px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-shadow: 33px;
+background-color: rgb(243, 234, 205);
+}
